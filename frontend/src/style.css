@@ -1,0 +1,33 @@
+
+:root {
+    --primary-color: #7cdffc;
+    --secondary-color: #0444a2;
+    --background-color: #01171b;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    border: 3px solid var(--primary-color);
+    background: transparent;
+    transition: all 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    &:hover {
+        background-color: var(--primary-color);
+        color: white;
+    }
+}

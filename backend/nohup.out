@@ -1,0 +1,206 @@
+
+> backend@1.0.0 start
+> node server.js
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Object.<anonymous> (/Users/adam/Real_Time_Chat_App/backend/server.js:251:12)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+
+Node.js v18.18.0
+
+> backend@1.0.0 start
+> node server.js
+
+Server listening on port 3000
+Database tables created successfully and pictures added.
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+
+> backend@1.0.0 start
+> node server.js
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Object.<anonymous> (/Users/adam/Real_Time_Chat_App/backend/server.js:251:12)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+
+Node.js v18.18.0
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+null is now online !
+A user disconnected
+Profile picture updated for Pierre
+Pierre is now online !
+A user disconnected
+Pierre is now online !
+A user disconnected
+Profile picture updated for wsh
+wsh is now online !
+Adam is now online !
+A user disconnected
+wsh is now online !
+Adam is now online !
+A user disconnected
+wsh is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+wsh is now online !
+A user disconnected
+wsh is now online !
+A user disconnected
+wsh is now online !
+A user disconnected
+wsh is now online !
+A user disconnected
+A user disconnected
+Adam is now online !
+
+> backend@1.0.0 start
+> node server.js
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Object.<anonymous> (/Users/adam/Real_Time_Chat_App/backend/server.js:257:12)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+
+Node.js v18.18.0
+A user disconnected
+wsh is now online !
+A user disconnected
+A user disconnected
+A user disconnected
+Adam is now online !
+A user disconnected
+wsh is now online !
+Adam is now online !
+A user disconnected
+A user disconnected
+
+> backend@1.0.0 start
+> node server.js
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Object.<anonymous> (/Users/adam/Real_Time_Chat_App/backend/server.js:251:12)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+
+Node.js v18.18.0
+Adam is now online !
+Pierre is now online !
+A user disconnected
+Adam is now online !
+Pierre is now online !
+A user disconnected
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+Adam is now online !
+A user disconnected
+A user disconnected

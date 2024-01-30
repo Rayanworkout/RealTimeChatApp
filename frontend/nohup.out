@@ -1,0 +1,256 @@
+
+> chatapp@0.0.0 dev
+> vite
+
+
+  VITE v5.0.11  ready in 422 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> chatapp@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+
+  VITE v5.0.11  ready in 202 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+13:38:24 [vite] hmr update /src/pages/Home.page.vue, /src/pages/Home.page.vue?vue&type=style&index=0&scoped=680174ff&lang.css
+
+> chatapp@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+
+  VITE v5.0.11  ready in 202 ms
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: use --host to expose
+13:39:15 [vite] Pre-transform error: [@vue/compiler-sfc] different imports aliased to same local name.
+
+/Users/adam/Real_Time_Chat_App/frontend/src/pages/Home.page.vue
+9  |  
+10 |  // Components
+11 |  import Navbar from "../components/Navbar.component.vue";
+   |         ^^^^^^
+12 |  import OnlineUsers from '../components/OnlineUsers.component.vue';
+13 |  import MessageInGrid from "../components/MessageInGrid.component.vue";
+13:39:16 [vite] Internal server error: [@vue/compiler-sfc] different imports aliased to same local name.
+
+/Users/adam/Real_Time_Chat_App/frontend/src/pages/Home.page.vue
+9  |  
+10 |  // Components
+11 |  import Navbar from "../components/Navbar.component.vue";
+   |         ^^^^^^
+12 |  import OnlineUsers from '../components/OnlineUsers.component.vue';
+13 |  import MessageInGrid from "../components/MessageInGrid.component.vue";
+  Plugin: vite:vue
+  File: /Users/adam/Real_Time_Chat_App/frontend/src/pages/Home.page.vue
+      at ScriptCompileContext.error (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:15576:11)
+      at Object.compileScript (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:19956:17)
+      at resolveScript (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:337:31)
+      at genScriptCode (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:2533:18)
+      at transformMain (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:2343:54)
+      at TransformContext.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:2869:16)
+      at Object.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:64060:62)
+      at async loadAndTransform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:49741:29)
+      at async viteTransformMiddleware (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:59342:32)
+13:40:49 [vite] hmr update /src/pages/Home.page.vue
+13:41:52 [vite] hmr update /src/pages/Home.page.vue, /src/pages/Home.page.vue?vue&type=style&index=0&scoped=680174ff&lang.css
+13:51:33 [vite] hmr update /src/pages/Home.page.vue
+13:56:46 [vite] hmr update /src/components/OnlineUsers.component.vue?vue&type=style&index=0&scoped=ed659957&lang.css, /src/components/OnlineUsers.component.vue
+13:59:06 [vite] hmr update /src/pages/Home.page.vue
+
+> chatapp@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+Port 5175 is in use, trying another one...
+
+  VITE v5.0.11  ready in 205 ms
+
+  ➜  Local:   http://localhost:5176/
+  ➜  Network: use --host to expose
+
+> chatapp@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+Port 5175 is in use, trying another one...
+Port 5176 is in use, trying another one...
+
+  VITE v5.0.11  ready in 207 ms
+
+  ➜  Local:   http://localhost:5177/
+  ➜  Network: use --host to expose
+15:37:00 [vite] hmr update /src/components/OnlineUsers.component.vue, /src/components/OnlineUsers.component.vue?vue&type=style&index=0&scoped=ed659957&lang.css
+15:37:00 [vite] Internal server error: [vue/compiler-sfc] Unexpected token (14:0)
+
+/Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue
+11 |          }
+12 |      });
+13 |      });
+   |          ^
+14 |  });
+   |  ^
+15 |  
+  Plugin: vite:vue
+  File: /Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue:14:0
+  10 |              state.typingUsers.push(user);
+  11 |          }
+  12 |      });
+     |    ^
+  13 |      });
+  14 |  });
+      at constructor (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:356:19)
+      at Parser.raise (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:3223:19)
+      at Parser.unexpected (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:3253:16)
+      at Parser.parseExprAtom (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:11257:16)
+      at Parser.parseExprSubscripts (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10857:23)
+      at Parser.parseUpdate (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10840:21)
+      at Parser.parseMaybeUnary (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10816:23)
+      at Parser.parseMaybeUnaryOrPrivate (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10654:61)
+      at Parser.parseExprOps (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10659:23)
+      at Parser.parseMaybeConditional (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10636:23)
+15:37:00 [vite] Internal server error: [vue/compiler-sfc] Unexpected token (14:0)
+
+/Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue
+11 |          }
+12 |      });
+13 |      });
+   |          ^
+14 |  });
+   |  ^
+15 |  
+  Plugin: vite:vue
+  File: /Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue:14:0
+  10 |              state.typingUsers.push(user);
+  11 |          }
+  12 |      });
+     |    ^
+  13 |      });
+  14 |  });
+      at constructor (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:356:19)
+      at Parser.raise (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:3223:19)
+      at Parser.unexpected (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:3253:16)
+      at Parser.parseExprAtom (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:11257:16)
+      at Parser.parseExprSubscripts (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10857:23)
+      at Parser.parseUpdate (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10840:21)
+      at Parser.parseMaybeUnary (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10816:23)
+      at Parser.parseMaybeUnaryOrPrivate (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10654:61)
+      at Parser.parseExprOps (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10659:23)
+      at Parser.parseMaybeConditional (/Users/adam/Real_Time_Chat_App/frontend/node_modules/@babel/parser/lib/index.js:10636:23)
+15:37:07 [vite] hmr update /src/components/OnlineUsers.component.vue
+15:37:07 [vite] Internal server error: Failed to resolve import "../socket.js" from "src/components/OnlineUsers.component.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue:3:25
+  1  |  import { onMounted, onUnmounted } from 'vue';
+  2  |  import { socket } from '../socket.js'; // Assurez-vous que le chemin est correct
+     |                          ^
+  3  |  
+  4  |  
+      at formatError (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63765:46)
+      at TransformContext.error (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63759:19)
+      at normalizeUrl (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62034:33)
+      at async file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62188:47
+      at async Promise.all (index 1)
+      at async TransformContext.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62109:13)
+      at async Object.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:64060:30)
+      at async loadAndTransform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:49741:29)
+15:37:07 [vite] Internal server error: Failed to resolve import "../socket.js" from "src/components/OnlineUsers.component.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue:3:25
+  1  |  import { onMounted, onUnmounted } from 'vue';
+  2  |  import { socket } from '../socket.js'; // Assurez-vous que le chemin est correct
+     |                          ^
+  3  |  
+  4  |  
+      at formatError (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63765:46)
+      at TransformContext.error (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63759:19)
+      at normalizeUrl (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62034:33)
+      at async file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62188:47
+      at async Promise.all (index 1)
+      at async TransformContext.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62109:13)
+      at async Object.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:64060:30)
+      at async loadAndTransform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:49741:29)
+
+Could not open OnlineUsers.component.vue in the editor.
+The editor process exited with an error: spawn code ENOENT.
+
+15:38:01 [vite] Pre-transform error: Failed to resolve import "../socket.js" from "src/components/OnlineUsers.component.vue". Does the file exist?
+15:38:01 [vite] Internal server error: Failed to resolve import "../socket.js" from "src/components/OnlineUsers.component.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue:3:25
+  1  |  import { onMounted, onUnmounted } from 'vue';
+  2  |  import { socket } from '../socket.js'; // Assurez-vous que le chemin est correct
+     |                          ^
+  3  |  
+  4  |  
+      at formatError (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63765:46)
+      at TransformContext.error (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63759:19)
+      at normalizeUrl (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62034:33)
+      at async file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62188:47
+      at async Promise.all (index 1)
+      at async TransformContext.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62109:13)
+      at async Object.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:64060:30)
+      at async loadAndTransform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:49741:29)
+      at async viteTransformMiddleware (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:59342:32)
+15:38:03 [vite] hmr update /src/pages/Home.page.vue
+15:38:03 [vite] Pre-transform error: Failed to resolve import "frontend/socket.js" from "src/components/OnlineUsers.component.vue". Does the file exist?
+15:38:03 [vite] Internal server error: Failed to resolve import "frontend/socket.js" from "src/components/OnlineUsers.component.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue:3:25
+  1  |  import { onMounted, onUnmounted } from 'vue';
+  2  |  import { socket } from 'frontend/socket.js'; // Assurez-vous que le chemin est correct
+     |                          ^
+  3  |  
+  4  |  
+      at formatError (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63765:46)
+      at TransformContext.error (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63759:19)
+      at normalizeUrl (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62034:33)
+      at async file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62188:47
+      at async Promise.all (index 1)
+      at async TransformContext.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62109:13)
+      at async Object.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:64060:30)
+      at async loadAndTransform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:49741:29)
+      at async viteTransformMiddleware (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:59342:32)
+15:38:03 [vite] Internal server error: Failed to resolve import "frontend/socket.js" from "src/components/OnlineUsers.component.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue:3:25
+  1  |  import { onMounted, onUnmounted } from 'vue';
+  2  |  import { socket } from 'frontend/socket.js'; // Assurez-vous que le chemin est correct
+     |                          ^
+  3  |  
+  4  |  
+      at formatError (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63765:46)
+      at TransformContext.error (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63759:19)
+      at normalizeUrl (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62034:33)
+      at async file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62188:47
+      at async Promise.all (index 1)
+      at async TransformContext.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62109:13)
+      at async Object.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:64060:30)
+      at async loadAndTransform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:49741:29)
+      at async viteTransformMiddleware (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:59342:32)
+15:38:04 [vite] Internal server error: Failed to resolve import "frontend/socket.js" from "src/components/OnlineUsers.component.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/adam/Real_Time_Chat_App/frontend/src/components/OnlineUsers.component.vue:3:25
+  1  |  import { onMounted, onUnmounted } from 'vue';
+  2  |  import { socket } from 'frontend/socket.js'; // Assurez-vous que le chemin est correct
+     |                          ^
+  3  |  
+  4  |  
+      at formatError (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63765:46)
+      at TransformContext.error (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:63759:19)
+      at normalizeUrl (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62034:33)
+      at async file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62188:47
+      at async Promise.all (index 1)
+      at async TransformContext.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:62109:13)
+      at async Object.transform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:64060:30)
+      at async loadAndTransform (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:49741:29)
+      at async viteTransformMiddleware (file:///Users/adam/Real_Time_Chat_App/frontend/node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js:59342:32)
+15:38:27 [vite] hmr update /src/pages/Home.page.vue
