@@ -9,6 +9,11 @@ The features are based on the homework section of the [Socket.io docs](https://s
 - **Insecure** authentication.
 - Messages and Users are saved in database.
 - "Typing" message when a user is typing.
+
+
+![Screenshot](Screenshot1.png)
+
+
 ## Tech Stack
 
 **Client:** VueJS as a single page application
@@ -20,6 +25,8 @@ The features are based on the homework section of the [Socket.io docs](https://s
 **Libs:** Socket.io, Axios, Bootstrap CSS
 
 
+![Screenshot](Screenshot2.png)
+
 ## Deployment
 
 #### Prerequisites
@@ -29,7 +36,7 @@ The features are based on the homework section of the [Socket.io docs](https://s
 To deploy this project on your Linux machine, first clone the repo:
 
 ```bash
-  git clone https://github.com/Rayanworkout/Real_Time_Chat_App.git
+  git clone https://github.com/Rayanworkout/RealTimeChatApp.git
 ```
 ### Option 1: Development mode
 To deploy the app in Dev mode (separate frontend and backend) you need to `cd` into the project's folder and run the `dev_deploy.sh` script
@@ -37,7 +44,7 @@ To deploy the app in Dev mode (separate frontend and backend) you need to `cd` i
 
 This script will install all dependancies and run both servers in the background. When you're done, kill them by running `killall node`
 ```bash
-cd Real_Time_Chat_App
+cd RealTimeChatApp
 sudo chmod +x ./dev_deploy.sh
 ./dev_deploy.sh
 ```
@@ -45,7 +52,7 @@ sudo chmod +x ./dev_deploy.sh
 Alternatively, you can manually install dependancies for both the frontend and the backend and run servers yourself.
 
 ```bash
-cd Real_Time_Chat_App
+cd RealTimeChatApp
 cd ./frontend && npm i
 cd ../backend && npm i
 
@@ -63,8 +70,8 @@ To deploy the App in production, the steps are almost the same. In Prod, the app
 Once the repo is cloned, `cd` into the project folder and run `./prod_deploy.sh`
 
 ```bash
-git clone https://github.com/Rayanworkout/Real_Time_Chat_App.git
-cd Real_Time_Chat_App
+git clone https://github.com/Rayanworkout/RealTimeChatApp.git
+cd RealTimeChatApp
 sudo chmod +x ./prod_deploy.sh
 ./prod_deploy.sh
 ```
